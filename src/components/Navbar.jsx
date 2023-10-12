@@ -4,7 +4,7 @@ import { navLinks } from "../constants"
 
 const Navbar = () => {
     return (
-        <div className="w-full mx-auto max-w-[1650px] bg-white py-4 flex flex-row justify-between items-center">
+        <div className="w-full mx-auto max-w-[1440px] bg-white py-4 flex flex-row justify-between items-center">
             <Link to="/">
                 <img src={logo} />
             </Link>
@@ -23,8 +23,9 @@ const Navbar = () => {
                     ))}
                 </ul>
             </div>
-
-            <button className="bg-primary hover:bg-[#5E41D1] px-6 py-4 text-white rounded-lg">Contact Us</button>
+            <Link to="/contact">
+                <button className="bg-primary hover:bg-[#5E41D1] px-10 py-4 text-white rounded-lg">Contact Us</button>
+            </Link>
         </div>
     )
 }

@@ -15,8 +15,4 @@ export const navLinks = [
     name: "Clients & Partners",
     link: "/clients-and-partners",
   },
-  {
-    name: "Careers",
-    link: "/carrers",
-  },
 ];

@@ -6,7 +6,11 @@ import Services from "./Services";
 import Articles from "./Articles";
 import Footer from "./Footer"
 import ScrollToTop from "./ScrollToTop";
-
+import Team from "./Team";
+import Mission from "./Mission";
+import Slideshow from "./Slideshow";
+import Partners from "./Partners";
+import Resources from "./Resources";
 
 export {
     SplashScreen,
@@ -14,7 +18,12 @@ export {
     Hero,
     Companies,
     Services,
+    Team,
     Articles,
+    Mission,
+    Partners,
+    Resources,
+    Slideshow,
     ScrollToTop,
     Footer,
 }

@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import { Navbar, ScrollToTop, SplashScreen } from './components';
-import { Home } from './pages'
+import { About, Contact, Home, Partner } from './pages'
 
 const App = () => {
   return (
@@ -15,6 +15,9 @@ const App = () => {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/clients-and-partners" element={<Partner />} />
         </Routes>
       </div>
     </Router>

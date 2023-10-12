@@ -2,10 +2,10 @@ import { articleOne, articleThree, articleTwo, calendar, user } from "../assets"
 
 const Articles = () => {
     return (
-        <div className="flex flex-col w-full mx-auto max-w-[1650px] md:mt-[20rem]">
+        <div className="flex flex-col w-full mx-auto max-w-[1440px] md:mt-[20rem]">
             <div className="flex flex-row items-end space-x-4">
                 <p className="">New Releases</p>
-                <div className="w-[75px] h-[1px] bg-black/25" />
+                <div className="w-[75px] h-[2px] bg-black/25" />
             </div>
             <h3 className="services_title mt-5">Articles You May Read</h3>
 

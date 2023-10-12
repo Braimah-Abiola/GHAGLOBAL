@@ -3,7 +3,7 @@ import { serviceOne, serviceThree, serviceTwo } from "../assets"
 const Services = () => {
     return (
         <div className="flex flex-col w-full pt-40 pb-20">
-            <div className="flex flex-col mx-auto max-w-[1650px] w-full space-y-32">
+            <div className="flex flex-col mx-auto max-w-[1440px] w-full space-y-32">
 
                 <div className="flex flex-row justify-between w-full ">
                     <div className="w-1/3">

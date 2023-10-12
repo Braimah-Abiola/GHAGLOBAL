@@ -18,7 +18,7 @@ const Hero = () => {
                             Unlock the potential of your business on a global scale with our comprehensive<br /> consulting services, meticulously designed for strategic excellence.
                         </p>
 
-                        <button className="bg-primary px-12 py-4 text-white rounded-lg mt-10">Discover Now</button>
+                        <button className="bg-primary hover:bg-[#5E41D1] px-12 py-4 text-white rounded-lg mt-10">Discover Now</button>
                     </div>
                 </div>
             </div>

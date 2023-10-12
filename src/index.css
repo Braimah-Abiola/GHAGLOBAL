@@ -113,3 +113,16 @@ body {
 }
 
 /* Hero Styles */
+
+/* Services Styles */
+
+.services_title {
+  @apply md:text-[48px] text-[26px] font-semibold font-schibsted leading-[1.14] text-black text-left;
+}
+
+.services_description {
+  @apply text-[16px] md:text-[18px] font-normal font-inter text-[#505050];
+}
+
+/* Services Styles */
+

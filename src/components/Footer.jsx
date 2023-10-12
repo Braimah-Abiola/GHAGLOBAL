@@ -3,7 +3,7 @@ import { instagram, logoWhite, twitter, youtube } from "../assets"
 
 const Footer = () => {
   return (
-    <div className="flex flex-col w-full bg-footerBg py-20">
+    <div className="flex flex-col w-full bg-footerBg pt-20 pb-10">
       <div className="flex flex-row justify-between w-full mx-auto max-w-[1650px]">
         <Link to="/">
           <img className="w-[200px] h-[45px]" src={logoWhite} alt="Logo white" />
@@ -62,7 +62,7 @@ const Footer = () => {
       <div className="w-full h-[1px] bg-[#888888]/20 mt-28 mb-16 mx-auto max-w-[1650px]" />
 
       <div className="flex flex-col items-center w-full">
-        <p className="text-[#888888]">Designed And Developed By Studio IX</p>
+        <p className="text-[#888888]">Designed And Developed By <a className="underline" href="https://studioix.agency">Studio IX</a></p>
         <p className="text-[#888888]">Digital Creative Agency</p>
       </div>
     </div>

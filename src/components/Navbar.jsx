@@ -24,7 +24,7 @@ const Navbar = () => {
                 </ul>
             </div>
 
-            <button className="bg-primary px-6 py-4 text-white rounded-lg">Contact Us</button>
+            <button className="bg-primary hover:bg-[#5E41D1] px-6 py-4 text-white rounded-lg">Contact Us</button>
         </div>
     )
 }

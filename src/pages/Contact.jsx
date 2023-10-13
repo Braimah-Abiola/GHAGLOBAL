@@ -28,6 +28,7 @@ const Contact = () => {
         setErrMsg({ name: "", email: "invalid email address" });
         handleTimeOut();
       } else {
+        setErrMsg({name: "", email: ""})
         setSending(true);
         emailjs
           .sendForm(

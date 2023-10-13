@@ -5,7 +5,9 @@ const Home = () => {
     <div className="w-full flex flex-col">
       <Hero />
       <div className="mt-[5rem] md:mt-[20rem]">
-        <Companies />
+        <div className="hidden md:block">
+          <Companies />
+        </div>
         <Services />
         <Articles />
       </div>

@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { Footer } from "../components";
-import {BiErrorCircle} from "react-icons/bi"
+import { BiErrorCircle } from "react-icons/bi"
 
 const Contact = () => {
   const form = useRef();
@@ -59,16 +59,16 @@ const Contact = () => {
 
   return (
     <div className="w-full flex flex-col items-center">
-      <h2 className="services_title md:mt-[5rem]">Contact Us</h2>
-      <p className="services_description mt-4">Drop us a Line!</p>
+      <h2 className="services_title mt-[3rem] md:mt-[5rem]">Contact Us</h2>
+      <p className="services_description mt-2 md:mt-4">Drop us a Line!</p>
 
       <form
         ref={form}
         onSubmit={handleFormSubmit}
-        className="flex flex-col max-w-[1440px] mx-auto w-full items-center pt-24 pb-52 space-y-8"
+        className="flex flex-col max-w-[1440px] mx-auto w-full items-center pt-24 px-5 md:px-0 pb-52 space-y-8"
       >
         <div className="input_field">
-          <input type="text" placeholder="Your name" name="user_name" className={`${errMsg.name.length > 0 && "error"}`}/>
+          <input type="text" placeholder="Your name" name="user_name" className={`${errMsg.name.length > 0 && "error"}`} />
           <span className="input_field_asterisk">*</span>
           {errMsg.name.length > 0 && <p className='text-red-600 text-[13px] flex items-center gap-2'><BiErrorCircle />{errMsg.name}</p>}
         </div>
@@ -91,7 +91,7 @@ const Contact = () => {
             name="message"
           />
         </div>
-        <button>submit</button>
+        <button className="bg-primary hover:bg-[#5E41D1] px-12 md:px-12 py-4 text-white rounded-lg">Submit</button>
       </form>
       <button className={`feedback ${sending && "displayFeedback"}`}>
         sending...

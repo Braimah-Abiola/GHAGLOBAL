@@ -19,6 +19,10 @@ import articleOne from "./article_one.png";
 import articleTwo from "./article_two.png";
 import articleThree from "./article_three.png";
 
+import president from "./president.png";
+import ceo from "./ceo.png";
+import carlos from "./carlos.png";
+
 import marqueeOne from "./marquee1.png";
 import marqueeTwo from "./marquee2.png";
 import marqueeThree from "./marquee3.png";
@@ -53,6 +57,9 @@ export {
   marqueeTwo,
   marqueeThree,
   marqueeFour,
+  president,
+  ceo,
+  carlos,
   profile,
   user,
   doc,

@@ -1,4 +1,5 @@
 import { heroImage } from "../assets"
+import Companies from "./Companies"
 
 const Hero = () => {
     return (
@@ -22,6 +23,11 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="mt-[5rem] md:hidden">
+                <Companies />
+            </div>
+
         </div>
     )
 }

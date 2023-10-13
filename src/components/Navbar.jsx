@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom"
 import { close, logo, menu } from "../assets"
-import { navLinks } from "../constants"
+import { mobileNavLinks, navLinks } from "../constants"
 import { useState } from "react";
 
 const Navbar = () => {
@@ -36,8 +36,8 @@ const Navbar = () => {
 
             <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-primary absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
                 <ul className="list-none flex-col justify-end items-center flex-1">
-                    {navLinks.map((nav, index) => (
-                        <li key={nav.id} className={`font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white mr-10`}>
+                    {mobileNavLinks.map((nav, index) => (
+                        <li key={nav.id} className={`font-normal cursor-pointer text-[16px] ${index === mobileNavLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white mr-10`}>
                             <a href={`${nav.link}`}>{nav.name}</a>
                         </li>
                     ))}

@@ -21,7 +21,7 @@ const Team = () => {
 
                 <div className="bg-[#F3F3F3] flex flex-col rounded-[20px] items-center justify-center p-8 md:p-10">
                     <img className="w-28 h-28" src={carlos} alt="Carlos Boakye" />
-                    <p className="mt-6 services_description">Secretary</p>
+                    <p className="mt-6 services_description">Board Secretary</p>
                     <h4 className="font-schibsted font-medium text-[20px] md:text-[24px]">Carlos Boakye</h4>
                     <p className="text-center mt-3 md:mt-5 services_description">HRH Sabrina Poole is the Chief Executive Officer (CEO) of GHA GLOBAL, driven by his passion for global strategy. She is responsible for managing the organization&apos;s activities and programs, identifying new opportunities and ensuring that clients have a positive and fulfilling experience.</p>
                 </div>

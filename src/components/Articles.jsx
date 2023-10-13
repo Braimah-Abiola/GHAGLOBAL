@@ -2,21 +2,21 @@ import { articleOne, articleThree, articleTwo, calendar, user } from "../assets"
 
 const Articles = () => {
     return (
-        <div className="flex flex-col w-full mx-auto max-w-[1440px] md:mt-[20rem]">
-            <div className="flex flex-row items-end space-x-4">
+        <div className="flex flex-col w-full mx-auto max-w-[1440px] mt-[5rem] md:mt-[20rem]">
+            <div className="flex flex-row items-end space-x-4 px-5 md:px-0">
                 <p className="">New Releases</p>
                 <div className="w-[75px] h-[2px] bg-black/25" />
             </div>
-            <h3 className="services_title mt-5">Articles You May Read</h3>
+            <h3 className="services_title mt-5 px-5 md:px-0">Articles You May Read</h3>
 
-            <div className="w-full flex flex-row space-x-10 mt-16">
-                <div className="h-[650px] w-[450px] bg-white shadow-xl rounded-[20px] flex flex-col">
-                    <div className="w-full h-[320px] bg-[#D9D9D9] rounded-t-[20px]">
-                        <img className="h-[320px] rounded-t-[20px]" src={articleOne} alt="Article one" />
+            <div className="w-full flex flex-col md:flex-row space-x-0 space-y-5 md:space-y-0 md:space-x-10 mt-16 px-5 md:px-0">
+                <div className="md:h-[650px] w-full md:w-[450px] bg-white shadow-xl rounded-[20px] flex flex-col">
+                    <div className="w-full md:h-[320px] bg-[#D9D9D9] rounded-t-[20px]">
+                        <img className="md:h-[320px] rounded-t-[20px]" src={articleOne} alt="Article one" />
                     </div>
 
                     <div className="p-8">
-                        <div className="w-full flex flex-row space-x-20 my-2">
+                        <div className="w-full flex flex-row space-x-6 md:space-x-20 my-2">
                             <div className="flex flex-row space-x-4">
                                 <img src={user} alt="User" />
                                 <p>GHA Global</p>
@@ -42,13 +42,13 @@ const Articles = () => {
                     </div>
                 </div>
 
-                <div className="h-[650px] w-[450px] bg-white shadow-xl rounded-[20px] flex flex-col">
-                    <div className="w-full h-[320px] bg-[#D9D9D9] rounded-t-[20px]">
-                        <img className="h-[320px] rounded-t-[20px]" src={articleTwo} alt="Article one" />
+                <div className="md:h-[650px] w-full md:w-[450px] bg-white shadow-xl rounded-[20px] flex flex-col">
+                    <div className="w-full md:h-[320px] bg-[#D9D9D9] rounded-t-[20px]">
+                        <img className="md:h-[320px] rounded-t-[20px]" src={articleTwo} alt="Article one" />
                     </div>
 
                     <div className="p-8">
-                        <div className="w-full flex flex-row space-x-20 my-2">
+                        <div className="w-full flex flex-row space-x-6 md:space-x-20 my-2">
                             <div className="flex flex-row space-x-4">
                                 <img src={user} alt="User" />
                                 <p>GHA Global</p>
@@ -74,13 +74,13 @@ const Articles = () => {
                     </div>
                 </div>
 
-                <div className="h-[650px] w-[450px] bg-white shadow-xl rounded-[20px] flex flex-col">
-                    <div className="w-full h-[320px] bg-[#D9D9D9] rounded-t-[20px]">
-                        <img className="h-[320px] rounded-t-[20px]" src={articleThree} alt="Article one" />
+                <div className="md:h-[650px] w-full md:w-[450px] bg-white shadow-xl rounded-[20px] flex flex-col">
+                    <div className="w-full md:h-[320px] bg-[#D9D9D9] rounded-t-[20px]">
+                        <img className="md:h-[320px] rounded-t-[20px]" src={articleThree} alt="Article one" />
                     </div>
 
                     <div className="p-8">
-                        <div className="w-full flex flex-row space-x-20 my-2">
+                        <div className="w-full flex flex-row space-x-6 md:space-x-20 my-2">
                             <div className="flex flex-row space-x-4">
                                 <img src={user} alt="User" />
                                 <p>GHA Global</p>

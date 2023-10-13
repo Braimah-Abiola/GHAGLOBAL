@@ -4,12 +4,12 @@ const Home = () => {
   return (
     <div className="w-full flex flex-col">
       <Hero />
-      <div className="md:mt-[20rem]">
+      <div className="mt-[5rem] md:mt-[20rem]">
         <Companies />
         <Services />
-        <Articles/>
+        <Articles />
       </div>
-      <div className="md:mt-[20rem]">
+      <div className="mt-[8rem] md:mt-[20rem]">
         <Footer />
       </div>
     </div>

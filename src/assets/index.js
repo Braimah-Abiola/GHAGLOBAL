@@ -2,6 +2,9 @@ import logoWhite from "./logo_white.svg";
 import logo from "./logo.svg";
 import icon from "./icon.svg";
 
+import menu from "./menu.svg";
+import close from "./close.svg";
+
 import heroImage from "./hero_img.png";
 
 import companyOne from "./1.svg";
@@ -34,6 +37,8 @@ export {
   logo,
   logoWhite,
   icon,
+  menu,
+  close,
   heroImage,
   companyOne,
   companyTwo,

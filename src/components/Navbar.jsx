@@ -34,7 +34,7 @@ const Navbar = () => {
                 <img src={toggle ? close : menu} alt="Menu icon" />
             </div>
 
-            <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-primary absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
+            <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-primary absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-50 rounded-xl sidebar`}>
                 <ul className="list-none flex-col justify-end items-center flex-1">
                     {mobileNavLinks.map((nav, index) => (
                         <li key={nav.id} className={`font-normal cursor-pointer text-[16px] ${index === mobileNavLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white mr-10`}>

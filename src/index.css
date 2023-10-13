@@ -112,17 +112,16 @@ body {
   @apply text-[16px] md:text-[18px] font-normal font-inter text-white;
 }
 
-
 @media screen and (max-width: 400px) {
   .full_width_image {
     position: absolute;
     left: 0;
     width: 100%;
-    height: 90%;
+    height: 100%;
     overflow: hidden;
     z-index: -1;
   }
-  
+
   .full_width_image img {
     object-fit: cover;
     width: 100%;
@@ -245,7 +244,7 @@ body {
   background-color: #d6dce0;
 }
 
-.feedback{
+.feedback {
   background-color: black;
   display: block;
   border: solid 1px white;
@@ -261,7 +260,7 @@ body {
   transition: 0.3s ease-in-out;
   box-shadow: 0 5px 9px #2f2e2e;
 }
-button.errFeedback{
+button.errFeedback {
   background-color: #ff1900;
   width: 200px;
   height: 60px;
@@ -269,7 +268,7 @@ button.errFeedback{
   font-size: 17px;
 }
 
-button.displayFeedback{
+button.displayFeedback {
   right: 20px;
 }
 

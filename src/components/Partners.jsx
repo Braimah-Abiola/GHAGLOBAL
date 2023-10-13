@@ -5,7 +5,7 @@ import { companyOne, companyThree, companyTwo } from "../assets"
 const Partners = () => {
     return (
         <div className="w-full flex flex-col">
-            <div className="flex flex-col w-full mx-auto max-w-[1440px] md:mt-[5rem]">
+            <div className="flex flex-col w-full mx-auto max-w-[1440px] mt-[2rem] md:mt-[5rem] px-5 md:px-0">
                 <div className="flex flex-row items-end space-x-4">
                     <p className="">Our Partners</p>
                     <div className="w-[75px] h-[2px] bg-black/25" />
@@ -22,7 +22,7 @@ const Partners = () => {
             </div>
 
 
-            <div className="flex flex-col w-full mx-auto max-w-[1440px] md:mt-[10rem]">
+            <div className="flex flex-col w-full mx-auto max-w-[1440px] mt-[5rem] md:mt-[10rem] px-5 md:px-0">
                 <div className="flex flex-row items-end space-x-4">
                     <p className="">Our Clients</p>
                     <div className="w-[75px] h-[2px] bg-black/25" />

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { heroImage } from "../assets"
 import Companies from "./Companies"
 
@@ -19,12 +20,14 @@ const Hero = () => {
                             Unlock the potential of your business on a global scale with our comprehensive<br className="hidden md:block" /> consulting services, meticulously designed for strategic excellence.
                         </p>
 
-                        <button className="bg-primary hover:bg-[#5E41D1] px-8 md:px-12 py-4 text-white rounded-lg mt-10">Discover Now</button>
+                        <a href="#services">
+                            <button className="bg-primary hover:bg-[#5E41D1] px-8 md:px-12 py-4 text-white rounded-lg mt-10">Discover Now</button>
+                        </a>
                     </div>
                 </div>
             </div>
 
-            <div className="mt-[5rem] md:hidden">
+            <div className="mt-[5rem] md:hidden bg-white">
                 <Companies />
             </div>
 

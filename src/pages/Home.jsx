@@ -8,6 +8,9 @@ const Home = () => {
         <div className="hidden md:block">
           <Companies />
         </div>
+        <div className="-mt-20 md:-mt-0">
+
+        </div>
         <Services />
         <Articles />
       </div>

@@ -3,7 +3,7 @@ import { companyOne, companyThree, companyTwo } from "../assets"
 
 const Companies = () => {
     return (
-        <div className="w-full flex flex-col bg-white pt-10 pb-20">
+        <div className="w-full flex flex-col bg-white pt-4 md:pt-0 pb-32">
             <Marquee autoFill>
                 <img className=" w-[260px] h-[75px]" src={companyOne} alt="Renew toxocology" />
                 <img className=" w-[260px] h-[75px]" src={companyTwo} alt="Renew toxocology" />

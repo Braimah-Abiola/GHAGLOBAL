@@ -4,8 +4,8 @@ const Partner = () => {
   return (
     <div>
       <Partners />
-      <Resources/>
-      <div className="md:mt-[15rem]">
+      <Resources />
+      <div className="mt-[10rem] md:mt-[15rem]">
         <Footer />
       </div>
     </div>

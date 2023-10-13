@@ -2,7 +2,7 @@ import { serviceOne, serviceThree, serviceTwo } from "../assets"
 
 const Services = () => {
     return (
-        <div className="flex flex-col w-full pt-20 md:pt-40 pb-20 px-5 md:px-0">
+        <div id="services" className="flex flex-col w-full pt-0 md:pt-40 pb-20 px-5 md:px-0">
             <div className="flex flex-col mx-auto max-w-[1440px] w-full space-y-12 md:space-y-32">
 
                 <div className="flex flex-col md:flex-row justify-between w-full ">

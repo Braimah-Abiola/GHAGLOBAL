@@ -11,7 +11,9 @@ const Footer = () => {
 
 
         <div className="hidden md:block">
-          <div className="flex flex-col">
+          <div className="flex flex-row">
+
+          <div className="flex flex-col mr-32">
             <p className="text-white">Pages</p>
 
             <div className="text-[#BFBFBF] space-y-3 mt-6">
@@ -30,6 +32,7 @@ const Footer = () => {
               <p>Contact Us</p>
               <p>Our Services</p>
             </div>
+          </div>
           </div>
         </div>
 

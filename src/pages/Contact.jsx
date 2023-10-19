@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { Footer } from "../components";
 import { BiErrorCircle } from "react-icons/bi"
-
+import emailjs from '@emailjs/browser';
 const Contact = () => {
   const form = useRef();
   const [errMsg, setErrMsg] = useState({ name: "", email: "" });
@@ -28,13 +28,14 @@ const Contact = () => {
         setErrMsg({ name: "", email: "invalid email address" });
         handleTimeOut();
       } else {
+        setErrMsg({name: "", email: ""})
         setSending(true);
         emailjs
           .sendForm(
-            "YOUR_SERVICE_ID",
-            "YOUR_TEMPLATE_ID",
+            "service_xekqkl9",
+            "template_9poobu3",
             form.current,
-            "YOUR_PUBLIC_KEY"
+            "vTNCg0_4K3Gp0v11m"
           )
           .then(
             (result) => {

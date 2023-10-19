@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { serviceOne, serviceThree, serviceTwo } from "../assets"
 
 const Services = () => {
@@ -9,6 +10,11 @@ const Services = () => {
                     <div className="w-full md:w-1/3">
                         <h3 className="services_title">Applied Project Management</h3>
                         <p className="services_description mt-2 md:mt-5">Program integration is defined here as the process of achieving unity of effort between the projects of a program and ensuring alignment between the program and the needs of the parent organization</p>
+                        <Link to="/services-and-solutions">
+
+                            <button className="bg-primary hover:bg-[#5E41D1] px-8 md:px-12 py-4 text-white rounded-lg mt-10">Learn More</button>
+                        </Link>
+
                     </div>
                     <div className="md:w-[45%] w-full mt-8 md:mt-0">
                         <img src={serviceOne} alt="Applied project management" />
@@ -22,6 +28,11 @@ const Services = () => {
                     <div className="w-full md:w-1/2 md:px-20">
                         <h3 className="services_title">Program Integration Techniques</h3>
                         <p className="services_description mt-2 md:mt-5">Program integration is defined here as the process of achieving unity of effort between the projects of a program and ensuring alignment between the program and the needs of the parent organization</p>
+                        <Link to="/services-and-solutions">
+
+                            <button className="bg-primary hover:bg-[#5E41D1] px-8 md:px-12 py-4 text-white rounded-lg mt-10">Learn More</button>
+                        </Link>
+
                     </div>
                     <div className="w-full md:w-[45%] md:hidden mt-8 md:mt-0">
                         <img src={serviceTwo} alt="Applied project management" />
@@ -32,6 +43,11 @@ const Services = () => {
                     <div className="w-full md:w-1/3">
                         <h3 className="services_title">Strategic Planning</h3>
                         <p className="services_description mt-2 md:mt-5">Program integration is defined here as the process of achieving unity of effort between the projects of a program and ensuring alignment between the program and the needs of the parent organization</p>
+                        <Link to="/services-and-solutions">
+
+                            <button className="bg-primary hover:bg-[#5E41D1] px-8 md:px-12 py-4 text-white rounded-lg mt-10">Learn More</button>
+                        </Link>
+
                     </div>
                     <div className="w-full md:w-[45%] mt-8 md:mt-0">
                         <img src={serviceThree} alt="Applied project management" />

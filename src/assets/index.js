@@ -14,6 +14,7 @@ import companyThree from "./3.svg";
 import serviceOne from "./service1.png";
 import serviceTwo from "./service2.png";
 import serviceThree from "./service3.png";
+import story from "./story.png";
 
 import articleOne from "./article_one.png";
 import articleTwo from "./article_two.png";
@@ -48,6 +49,7 @@ export {
   companyTwo,
   companyThree,
   serviceOne,
+  story,
   serviceTwo,
   serviceThree,
   articleOne,

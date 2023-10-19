@@ -45,7 +45,7 @@ body {
 }
 
 .splash_screen .logo {
-  min-width: 200px;
+  min-width: 250px;
   max-width: 400px;
   animation: logoFadeOut 0.5s ease-in-out forwards;
   animation-delay: 0.8s;
@@ -106,6 +106,10 @@ body {
 
 .hero_text_white {
   @apply md:text-[68px] text-[40px] font-semibold font-schibsted leading-[1.14] text-white text-left;
+}
+
+.hero_text_black {
+  @apply md:text-[68px] text-[40px] font-semibold font-schibsted text-black text-left;
 }
 
 .hero_description_white {

@@ -13,26 +13,38 @@ const Footer = () => {
         <div className="hidden md:block">
           <div className="flex flex-row">
 
-          <div className="flex flex-col mr-32">
-            <p className="text-white">Pages</p>
+            <div className="flex flex-col mr-32">
+              <p className="text-white">Pages</p>
 
-            <div className="text-[#BFBFBF] space-y-3 mt-6">
-              <p>Home</p>
-              <p>About</p>
-              <p>Services & Solutions</p>
-              <p>Clients & Partners</p>
-              <p>Careers</p>
+              <div className="text-[#BFBFBF] space-y-3 mt-6">
+                <Link to="/">
+                  <p className="mt-2">Home</p>
+                </Link>
+                <Link to="/about">
+                  <p className="mt-4">About</p>
+                </Link>
+                <Link to="/services-and-solutions">
+                  <p className="mt-4">Services & Solutions</p>
+                </Link>
+                <Link to="/clients-and-partners">
+                  <p className="mt-4">Clients & Partners</p>
+                </Link>
+
+              </div>
             </div>
-          </div>
 
-          <div className="flex flex-col">
-            <p className="text-white">Get In Touch</p>
+            <div className="flex flex-col">
+              <p className="text-white">Get In Touch</p>
 
-            <div className="text-[#BFBFBF] space-y-3 mt-6">
-              <p>Contact Us</p>
-              <p>Our Services</p>
+              <div className="text-[#BFBFBF] space-y-3 mt-6">
+                <Link to="/contact">
+                  <p className="mt-2">Contact Us</p>
+                </Link>
+                <Link to="/services-and-solutions">
+                  <p className="mt-4">Our Services</p>
+                </Link>
+              </div>
             </div>
-          </div>
           </div>
         </div>
 
@@ -43,11 +55,18 @@ const Footer = () => {
             <p className="text-white">Pages</p>
 
             <div className="text-[#BFBFBF] space-y-3 mt-4">
-              <p>Home</p>
-              <p>About</p>
-              <p>Services & Solutions</p>
-              <p>Clients & Partners</p>
-              <p>Careers</p>
+              <Link to="/">
+                <p className="mt-2">Home</p>
+              </Link>
+              <Link to="/about">
+                <p className="mt-4">About</p>
+              </Link>
+              <Link to="/services-and-solutions">
+                <p className="mt-4">Services & Solutions</p>
+              </Link>
+              <Link to="/clients-and-partners">
+                <p className="mt-4">Clients & Partners</p>
+              </Link>
             </div>
           </div>
 
@@ -56,8 +75,12 @@ const Footer = () => {
             <p className="text-white">Get In Touch</p>
 
             <div className="text-[#BFBFBF] space-y-3 mt-4">
-              <p>Contact Us</p>
-              <p>Our Services</p>
+              <Link to="/contact">
+                <p className="mt-2">Contact Us</p>
+              </Link>
+              <Link to="/services-and-solutions">
+                <p className="mt-4">Our Services</p>
+              </Link>
             </div>
           </div>
 
